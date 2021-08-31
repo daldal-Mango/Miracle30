@@ -18,7 +18,7 @@
       {% elif goal.certify_method == 'text' %}
       <li>인증내용<span>{{ certify.text }}</span></li>
       {% else %}
-      <li>인증수치<span>{{ certify.figure }}</span></li>
+      <li>인증수치<span>{{ certify.value }}</span></li>
       {% endif %}
     </ul>
     {% endfor %}
